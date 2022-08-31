@@ -1,4 +1,14 @@
-import React from "react";
+import React from 'react';
+import { Banner } from './componenets/Banner';
+import './App.css';
+
+export default function App() {
+  return (
+    <Banner />
+  );
+}
+
+/*
 import {
   HashRouter as Router,
   Routes,
@@ -6,9 +16,7 @@ import {
   Link
 } from "react-router-dom";
 
-export default function App() {
-  return (
-    <Router>
+<Router>
       <div>
         <nav>
           <ul>
@@ -31,8 +39,6 @@ export default function App() {
         </Routes>
       </div>
     </Router>
-  );
-}
 
 function Home() {
   return <h2>Home</h2>;
@@ -45,4 +51,4 @@ function Blog() {
 function Secret() {
   return <h2>Secret</h2>;
 }
-
+*/
