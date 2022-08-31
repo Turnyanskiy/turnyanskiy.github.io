@@ -1,10 +1,15 @@
 import React from 'react';
 import { Banner } from './componenets/Banner';
+import { NavBar } from './componenets/NavBar';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 export default function App() {
   return (
-    <Banner />
+    <div className='App'>
+      <Banner />
+      <NavBar />
+    </div>
   );
 }
 
