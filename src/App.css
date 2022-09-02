@@ -209,7 +209,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .padding {
-    padding: 10%;
+    padding-left: 10%;
+    padding-top: 20%;
 }
 
 .banner h1 {
@@ -253,4 +254,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner button:hover {
     cursor: pointer;
+}
+
+.banner .socials {
+    padding: 30px;
+    margin: 3px;
+    opacity: 50%;
+    transition: .75s;
+}
+.banner .socials:hover {
+    opacity: 100%;
 }
