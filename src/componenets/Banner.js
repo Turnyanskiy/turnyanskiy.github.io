@@ -48,7 +48,6 @@ export const Banner = () => {
                 <div className={isVisible ? 'animate__animated animate__fadeIn' : ''}>
                     <h1>{`Hi! I'm Luke,`}<br /><span className='txt-rotate'><span className='cursor'>{text}</span></span></h1>
                     <p></p>
-                    {/* <button onClick={() => alert('Work in Progress: Show my socials')}>Check out my linktr.ee</button> */}
                     <SocialIcon url='https://github.com/Turnyanskiy' fgColor='white' className='socials'/>
                     <SocialIcon url='https://www.linkedin.com/in/luke-turnyanskiy/' className='socials'/>
                     <SocialIcon url='https://www.youtube.com/' className='socials'/>
