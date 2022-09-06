@@ -2,6 +2,7 @@ import React from 'react';
 import { Particle } from './componenets/Particle';
 import { Banner } from './componenets/Banner';
 import { NavBar } from './componenets/NavBar';
+import { Projects } from './componenets/Projects';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -11,6 +12,7 @@ export default function App() {
       <NavBar />
       <Banner />
       <Particle />
+      <Projects />
     </div>
   );
 }

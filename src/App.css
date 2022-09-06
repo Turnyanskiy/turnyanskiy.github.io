@@ -35,6 +35,8 @@ body {
     background-color: #121212 !important;
     color: #fff !important;
     font-family: 'Centra', sans-serif !important;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -211,6 +213,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .padding {
     padding-left: 10%;
     padding-top: 20%;
+    padding-bottom: 30%;
 }
 
 .banner h1 {
@@ -265,4 +268,29 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner .socials:hover {
     opacity: 100%;
+}
+
+/************ Swiper Css ************/
+
+Carousel {
+    margin: 0;
+}
+
+.projects {
+    text-align: center;
+    padding: 100px;
+}
+
+.projects h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+.projects img {
+    height: 100%;
+    width: 100%;
 }
