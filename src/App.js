@@ -12,7 +12,7 @@ export default function App() {
       <NavBar />
       <Banner />
       <Particle />
-      <Projects />
+      {/*<Projects />*/}
     </div>
   );
 }
